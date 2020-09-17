@@ -105,7 +105,7 @@ get.marker.spillover <- function( scale.untransformed, flow.gate, flow.control,
 
         c( marker.spillover.inte, marker.spillover.coef )
     },
-    mc.cores = get.worker.process( asp$worker.process.n ) )
+    mc.cores = 1 )
 
     marker.spillover <- do.call( rbind, marker.spillover )
     rownames( marker.spillover ) <- flow.control$marker
