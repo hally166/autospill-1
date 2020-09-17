@@ -192,7 +192,7 @@ get.compensation.error <- function( expr.data.unco, expr.data.comp,
         c( marker.spillover.comp.inte, marker.spillover.comp.coef,
             marker.spillover.comp.slop, marker.spillover.comp.skew )
     },
-    mc.cores = get.worker.process( asp$worker.process.n ) ) # samp
+    mc.cores = 1 ) # samp
 
     marker.spillover.comp <- do.call( rbind, marker.spillover.comp )
     rownames( marker.spillover.comp ) <- flow.control$marker
