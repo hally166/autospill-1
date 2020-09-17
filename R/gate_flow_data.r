@@ -42,7 +42,7 @@ gate.flow.data <- function( flow.control, asp )
                 match( samp, flow.control$marker ) ] ]],
             samp, flow.control, asp
         ),
-        mc.cores = get.worker.process( asp$worker.process.n )
+        mc.cores = 1
     )
 
     names( flow.gates ) <- flow.control$sample
