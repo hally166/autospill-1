@@ -161,7 +161,7 @@ get.marker.spillover.posnegpop <- function( flow.gate, flow.control, asp )
 
         marker.spillpopu.coef
     },
-    mc.cores = get.worker.process( asp$worker.process.n ) )
+    mc.cores = 1 )
 
     marker.spillpopu <- do.call( rbind, marker.spillpopu )
     rownames( marker.spillpopu ) <- flow.control$marker
