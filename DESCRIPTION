@@ -1,6 +1,6 @@
-Package: autospill
-Version: 0.01.00
-Date: 2020-08-01
+Package: autospill_ch
+Version: 0.01.01
+Date: 2020-09-23
 Title: AutoSpill: A method for calculating spillover coefficients to 
     compensate or unmix high-parameter flow cytometry data
 Description: AutoSpill uses robust linear regression and refinement of the 
