@@ -1,4 +1,4 @@
-This fork removes mclapply allowing AutoSpill to work on Windows machines, but much slower.  It has not been tested and you should probably be looking at [https://github.com/carlosproca/autospill](https://github.com/carlosproca/autospill) instead. 
+This fork removes mclapply (parallel processing) allowing AutoSpill to work on Windows machines.  It has only been superficially tested against MAC and the [VIB cloud implementation](https://autospill.vib.be/public/#/home) so you should probably be looking at [https://github.com/carlosproca/autospill](https://github.com/carlosproca/autospill) instead. 
 # autospill
 
 The **`autospill`** package implements the AutoSpill algorithm for calculating 
