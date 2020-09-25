@@ -104,7 +104,7 @@ get.marker.spillover <- function( scale.untransformed, flow.gate, flow.control,
             }
 
         c( marker.spillover.inte, marker.spillover.coef )
-    }
+    })
 
     marker.spillover <- do.call( rbind, marker.spillover )
     rownames( marker.spillover ) <- flow.control$marker
