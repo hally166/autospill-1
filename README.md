@@ -1,3 +1,5 @@
+This fork removes mclapply allowing AutoSpill to work on Windows machines, but much slower.  It has not been tested and you should probably be looking at [https://github.com/carlosproca/autospill](https://github.com/carlosproca/autospill) instead.  If you do use this fork, you should use Microsoft Open R (MRAN) that uses multithreading to improve performace.  
+
 # autospill
 
 The **`autospill`** package implements the AutoSpill algorithm for calculating 
