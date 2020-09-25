@@ -21,7 +21,7 @@ use the function `install_github` in the
 ```R
 library( devtools )
 
-install_github( "carlosproca/autospill" )
+install_github( "hally166/autospill-1" )
 ```
 
 
