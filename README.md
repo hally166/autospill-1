@@ -30,7 +30,7 @@ install_github( "hally166/autospill-1" )
 You can use the standard help in R.
 
 ```R
-library( autospill )
+library( autospillCH ) #changed the name for my testing
 
 ? get.marker.spillover
 ? refine.spillover
