@@ -16,7 +16,7 @@ asp <- get.autospill.param( "final.step" )
 # read flow controls
 
 control.dir <- "C:/Users/chall/Desktop/CompensationFolder"
-control.def.file <- "C:/Users/chall/Desktop/CompensationFolder/fcs_control.csv" #for DiVA use the filter, laser, and PMY details
+control.def.file <- "C:/Users/chall/Desktop/CompensationFolder/fcs_control.csv" #for DiVA, use the filter, laser, and PMT details
 
 
 flow.control <- read.flow.control( control.dir, control.def.file, asp )
