@@ -1,4 +1,4 @@
-#This is a it messy and a work in progress.  
+#This is a little messy and a work in progress.  
 #This is me practically using autospill and exporting the result in an fcs file for use on a flow cytometer.
 
 ###RUNNING AUTOSPILL
